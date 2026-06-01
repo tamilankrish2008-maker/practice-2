@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Model Card</title>
+
+<style>
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Card Component */
+.card {
+    width: 400px;
+    background-color:rgb(0, 255, 98);
+    border: 2px solid white     /* Border */
+    padding: 20px;               /* Inner spacing */
+    margin: 30px ;           /* Outer spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+    background: white;
+}
+
+.card p {
+    line-height: 1.6;
+    color: white;
+}
+
+.card button {
+    padding: 15px 23px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+    <h2>Beta foods</h2>
+    <p>
+Beta Foods is a leading food delivery service that offers a wide variety of delicious meals from local restaurants. With a user-friendly app and fast delivery, Beta Foods makes it easy to enjoy your favorite dishes from the comfort of your home. Whether you're craving pizza, sushi, or healthy salads, Beta Foods has something for everyone. Experience the convenience and taste of Beta Foods today!
+owner is A.Kalimuthu
+    </p>
+    <button>Sweet More</button>
+</div>
+
+</body>
+</html>
